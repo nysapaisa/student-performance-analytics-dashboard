@@ -18,12 +18,26 @@ live working site: https://student-performance-analytics-dashboard.onrender.com/
 
 ## Project Structure
 
+## Project Structure
+
+```plaintext
 student-performance-analytics-dashboard/
 │
+├── app.py
+│
 ├── database/
+│   └── students.db
+│
 ├── src/
+│   ├── analytics.py
+│   ├── database.py
+│   ├── insert_data.py
+│   └── visualization.py
+│
+├── .gitignore
 ├── README.md
 └── requirements.txt
+```
 
 ## Future Improvements
 - Interactive dashboard using Streamlit
